@@ -1,0 +1,470 @@
+   DEBUG 2019-01-01 23:57:48,186 Starting up server 
+    INFO 2019-01-01 23:58:03,276 101 GET /worker/ws/speech (::1) 0.43ms 
+    INFO 2019-01-01 23:58:03,276 New worker available <__main__.WorkerSocketHandler object at 0x7fd227defe90> 
+    INFO 2019-01-01 23:58:03,306 101 GET /worker/ws/speech (::1) 0.31ms 
+    INFO 2019-01-01 23:58:03,306 New worker available <__main__.WorkerSocketHandler object at 0x7fd227d90890> 
+    INFO 2019-01-01 23:58:03,778 101 GET /worker/ws/speech (::1) 0.30ms 
+    INFO 2019-01-01 23:58:03,778 New worker available <__main__.WorkerSocketHandler object at 0x7fd227daa0d0> 
+   DEBUG 2019-01-02 00:13:09,698 Starting up server 
+    INFO 2019-01-02 00:13:24,966 101 GET /worker/ws/speech (::1) 0.66ms 
+    INFO 2019-01-02 00:13:24,966 New worker available <__main__.WorkerSocketHandler object at 0x7fccc94041d0> 
+    INFO 2019-01-02 00:13:24,974 101 GET /worker/ws/speech (::1) 0.31ms 
+    INFO 2019-01-02 00:13:24,974 New worker available <__main__.WorkerSocketHandler object at 0x7fccc9404910> 
+    INFO 2019-01-02 00:13:24,974 101 GET /worker/ws/speech (::1) 0.23ms 
+    INFO 2019-01-02 00:13:24,974 New worker available <__main__.WorkerSocketHandler object at 0x7fccc941b050> 
+    INFO 2019-01-02 00:13:25,339 101 GET /worker/ws/speech (::1) 0.49ms 
+    INFO 2019-01-02 00:13:25,339 New worker available <__main__.WorkerSocketHandler object at 0x7fccc941b810> 
+    INFO 2019-01-02 00:13:26,372 101 GET /worker/ws/speech (::1) 0.50ms 
+    INFO 2019-01-02 00:13:26,373 New worker available <__main__.WorkerSocketHandler object at 0x7fccc941bd90> 
+    INFO 2019-01-02 00:13:51,442 101 GET /client/ws/speech?content-type= (::1) 0.69ms 
+    INFO 2019-01-02 00:13:51,442 d61beaaa-c305-426d-af34-89930c0c0f8d: OPEN 
+    INFO 2019-01-02 00:13:51,442 d61beaaa-c305-426d-af34-89930c0c0f8d: Request arguments: content-type="" 
+    INFO 2019-01-02 00:13:51,443 d61beaaa-c305-426d-af34-89930c0c0f8d: Using worker <__main__.DecoderSocketHandler object at 0x7fccc94254d0> 
+    INFO 2019-01-02 00:13:51,641 d61beaaa-c305-426d-af34-89930c0c0f8d: Forwarding client message (<type 'str'>) of length 8000 to worker 
+    INFO 2019-01-02 00:13:51,894 d61beaaa-c305-426d-af34-89930c0c0f8d: Forwarding client message (<type 'str'>) of length 8000 to worker 
+    INFO 2019-01-02 00:13:52,147 d61beaaa-c305-426d-af34-89930c0c0f8d: Forwarding client message (<type 'str'>) of length 8000 to worker 
+    INFO 2019-01-02 00:13:52,400 d61beaaa-c305-426d-af34-89930c0c0f8d: Forwarding client message (<type 'str'>) of length 8000 to worker 
+    INFO 2019-01-02 00:13:52,653 d61beaaa-c305-426d-af34-89930c0c0f8d: Forwarding client message (<type 'str'>) of length 8000 to worker 
+    INFO 2019-01-02 00:13:52,906 d61beaaa-c305-426d-af34-89930c0c0f8d: Forwarding client message (<type 'str'>) of length 8000 to worker 
+    INFO 2019-01-02 00:13:53,159 d61beaaa-c305-426d-af34-89930c0c0f8d: Forwarding client message (<type 'str'>) of length 8000 to worker 
+    INFO 2019-01-02 00:13:53,412 d61beaaa-c305-426d-af34-89930c0c0f8d: Forwarding client message (<type 'str'>) of length 8000 to worker 
+    INFO 2019-01-02 00:13:53,664 d61beaaa-c305-426d-af34-89930c0c0f8d: Forwarding client message (<type 'str'>) of length 8000 to worker 
+    INFO 2019-01-02 00:13:53,845 d61beaaa-c305-426d-af34-89930c0c0f8d: Sending event {u'status': 0, u'segment': 0, u'result': {u'hypotheses': [{u'transcript': u'i.'}], u'final': Fals... to client 
+    INFO 2019-01-02 00:13:53,917 d61beaaa-c305-426d-af34-89930c0c0f8d: Forwarding client message (<type 'str'>) of length 8000 to worker 
+    INFO 2019-01-02 00:13:54,129 d61beaaa-c305-426d-af34-89930c0c0f8d: Sending event {u'status': 0, u'segment': 0, u'result': {u'hypotheses': [{u'transcript': u'i want to.'}], u'fina... to client 
+    INFO 2019-01-02 00:13:54,170 d61beaaa-c305-426d-af34-89930c0c0f8d: Forwarding client message (<type 'str'>) of length 8000 to worker 
+    INFO 2019-01-02 00:13:54,423 d61beaaa-c305-426d-af34-89930c0c0f8d: Forwarding client message (<type 'str'>) of length 8000 to worker 
+    INFO 2019-01-02 00:13:54,437 d61beaaa-c305-426d-af34-89930c0c0f8d: Sending event {u'status': 0, u'segment': 0, u'result': {u'hypotheses': [{u'transcript': u'i want to buy.'}], u'... to client 
+    INFO 2019-01-02 00:13:54,676 d61beaaa-c305-426d-af34-89930c0c0f8d: Forwarding client message (<type 'str'>) of length 8000 to worker 
+    INFO 2019-01-02 00:13:54,929 d61beaaa-c305-426d-af34-89930c0c0f8d: Forwarding client message (<type 'str'>) of length 8000 to worker 
+    INFO 2019-01-02 00:13:55,075 d61beaaa-c305-426d-af34-89930c0c0f8d: Sending event {u'status': 0, u'segment': 0, u'result': {u'hypotheses': [{u'transcript': u'i want to buy a pair.... to client 
+    INFO 2019-01-02 00:13:55,181 d61beaaa-c305-426d-af34-89930c0c0f8d: Forwarding client message (<type 'str'>) of length 8000 to worker 
+    INFO 2019-01-02 00:13:55,434 d61beaaa-c305-426d-af34-89930c0c0f8d: Forwarding client message (<type 'str'>) of length 8000 to worker 
+    INFO 2019-01-02 00:13:55,502 d61beaaa-c305-426d-af34-89930c0c0f8d: Sending event {u'status': 0, u'segment': 0, u'result': {u'hypotheses': [{u'transcript': u'i want to buy a pair ... to client 
+    INFO 2019-01-02 00:13:55,687 d61beaaa-c305-426d-af34-89930c0c0f8d: Forwarding client message (<type 'str'>) of length 8000 to worker 
+    INFO 2019-01-02 00:13:55,940 d61beaaa-c305-426d-af34-89930c0c0f8d: Forwarding client message (<type 'str'>) of length 8000 to worker 
+    INFO 2019-01-02 00:13:56,073 d61beaaa-c305-426d-af34-89930c0c0f8d: Sending event {u'status': 0, u'segment': 0, u'result': {u'hypotheses': [{u'transcript': u'i want to buy a pair ... to client 
+    INFO 2019-01-02 00:13:56,193 d61beaaa-c305-426d-af34-89930c0c0f8d: Forwarding client message (<type 'str'>) of length 8000 to worker 
+    INFO 2019-01-02 00:13:56,445 d61beaaa-c305-426d-af34-89930c0c0f8d: Forwarding client message (<type 'str'>) of length 8000 to worker 
+    INFO 2019-01-02 00:13:56,697 d61beaaa-c305-426d-af34-89930c0c0f8d: Forwarding client message (<type 'str'>) of length 3466 to worker 
+    INFO 2019-01-02 00:13:56,698 d61beaaa-c305-426d-af34-89930c0c0f8d: Forwarding client message (<type 'unicode'>) of length 3 to worker 
+    INFO 2019-01-02 00:13:58,490 d61beaaa-c305-426d-af34-89930c0c0f8d: Sending event {u'status': 0, u'segment-start': 0.0, u'segment-length': 5.09, u'total-length': 5.09, u'result': ... to client 
+    INFO 2019-01-02 00:13:58,519 d61beaaa-c305-426d-af34-89930c0c0f8d: Sending event {u'status': 0, u'adaptation_state': {u'type': u'string+gzip+base64', u'id': u'd61beaaa-c305-426d-... to client 
+    INFO 2019-01-02 00:13:58,520 Worker <__main__.WorkerSocketHandler object at 0x7fccc941b810> leaving 
+    INFO 2019-01-02 00:13:58,529 d61beaaa-c305-426d-af34-89930c0c0f8d: Handling on_connection_close() 
+    INFO 2019-01-02 00:13:58,530 d61beaaa-c305-426d-af34-89930c0c0f8d: Closing worker connection 
+    INFO 2019-01-02 00:13:59,523 101 GET /worker/ws/speech (::1) 0.67ms 
+    INFO 2019-01-02 00:13:59,524 New worker available <__main__.WorkerSocketHandler object at 0x7fccc9425990> 
+    INFO 2019-01-02 00:14:31,877 101 GET /client/ws/speech?content-type= (::1) 0.66ms 
+    INFO 2019-01-02 00:14:31,877 7b920fcc-764a-45ef-affa-229ccf180728: OPEN 
+    INFO 2019-01-02 00:14:31,877 7b920fcc-764a-45ef-affa-229ccf180728: Request arguments: content-type="" 
+    INFO 2019-01-02 00:14:31,877 7b920fcc-764a-45ef-affa-229ccf180728: Using worker <__main__.DecoderSocketHandler object at 0x7fccc9425d10> 
+    INFO 2019-01-02 00:14:32,075 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:32,326 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:32,577 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:32,828 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:33,079 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:33,330 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:33,581 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:33,833 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:34,084 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:34,242 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 0, u'result': {u'hypotheses': [{u'transcript': u'and i was.'}], u'fina... to client 
+    INFO 2019-01-02 00:14:34,335 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:34,577 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 0, u'result': {u'hypotheses': [{u'transcript': u'and i was a kid.'}], ... to client 
+    INFO 2019-01-02 00:14:34,586 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:34,837 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:35,088 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:35,339 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:35,590 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:35,648 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 0, u'result': {u'hypotheses': [{u'transcript': u'and i was a kid the.'... to client 
+    INFO 2019-01-02 00:14:35,841 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:36,092 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:36,229 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 0, u'result': {u'hypotheses': [{u'transcript': u'and i was a kid the d... to client 
+    INFO 2019-01-02 00:14:36,343 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:36,518 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 0, u'result': {u'hypotheses': [{u'transcript': u'and i was a kid the d... to client 
+    INFO 2019-01-02 00:14:36,594 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:36,835 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 0, u'result': {u'hypotheses': [{u'transcript': u'and i was a kid the d... to client 
+    INFO 2019-01-02 00:14:36,845 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:37,085 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 0, u'result': {u'hypotheses': [{u'transcript': u'and i was a kid the d... to client 
+    INFO 2019-01-02 00:14:37,096 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:37,347 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:37,374 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 0, u'result': {u'hypotheses': [{u'transcript': u'and i was a kid the d... to client 
+    INFO 2019-01-02 00:14:37,598 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:37,849 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:37,946 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 0, u'result': {u'hypotheses': [{u'transcript': u'and i was a kid the d... to client 
+    INFO 2019-01-02 00:14:38,100 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:38,306 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 0, u'result': {u'hypotheses': [{u'transcript': u'and i was a kid the d... to client 
+    INFO 2019-01-02 00:14:38,351 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:38,575 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 0, u'result': {u'hypotheses': [{u'transcript': u'and i was a kid the d... to client 
+    INFO 2019-01-02 00:14:38,602 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:38,853 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:38,971 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 0, u'result': {u'hypotheses': [{u'transcript': u'and i was a kid the d... to client 
+    INFO 2019-01-02 00:14:39,105 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:39,356 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:39,607 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:39,858 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:40,109 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:40,360 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:40,611 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:40,836 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment-start': 0.0, u'segment-length': 6.13, u'total-length': 6.13, u'result': ... to client 
+    INFO 2019-01-02 00:14:40,862 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:41,113 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:41,364 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:41,615 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:41,828 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 1, u'result': {u'hypotheses': [{u'transcript': u"that's."}], u'final':... to client 
+    INFO 2019-01-02 00:14:41,866 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:42,117 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:42,131 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 1, u'result': {u'hypotheses': [{u'transcript': u"that's why we."}], u'... to client 
+    INFO 2019-01-02 00:14:42,368 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:42,619 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:42,788 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 1, u'result': {u'hypotheses': [{u'transcript': u"that's why we had a."... to client 
+    INFO 2019-01-02 00:14:42,870 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:43,080 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 1, u'result': {u'hypotheses': [{u'transcript': u"that's why we had a b... to client 
+    INFO 2019-01-02 00:14:43,121 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:43,372 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:43,392 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 1, u'result': {u'hypotheses': [{u'transcript': u"that's why we had a b... to client 
+    INFO 2019-01-02 00:14:43,624 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:43,751 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 1, u'result': {u'hypotheses': [{u'transcript': u"that's why we had a b... to client 
+    INFO 2019-01-02 00:14:43,875 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:44,126 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:44,251 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 1, u'result': {u'hypotheses': [{u'transcript': u"that's why we had a b... to client 
+    INFO 2019-01-02 00:14:44,377 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:44,481 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 1, u'result': {u'hypotheses': [{u'transcript': u"that's why we had a b... to client 
+    INFO 2019-01-02 00:14:44,628 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:44,879 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:45,130 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:45,229 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 1, u'result': {u'hypotheses': [{u'transcript': u"that's why we had a b... to client 
+    INFO 2019-01-02 00:14:45,381 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:45,516 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 1, u'result': {u'hypotheses': [{u'transcript': u"that's why we had a b... to client 
+    INFO 2019-01-02 00:14:45,632 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:45,883 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:46,060 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 1, u'result': {u'hypotheses': [{u'transcript': u"that's why we had a b... to client 
+    INFO 2019-01-02 00:14:46,134 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:46,385 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:46,636 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:46,767 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 1, u'result': {u'hypotheses': [{u'transcript': u"that's why we had a b... to client 
+    INFO 2019-01-02 00:14:46,887 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:47,138 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:47,389 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:47,640 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:47,891 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:48,142 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:48,393 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:48,579 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment-start': 6.13, u'segment-length': 7.25, u'total-length': 13.38, u'result'... to client 
+    INFO 2019-01-02 00:14:48,644 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:48,896 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:48,976 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 2, u'result': {u'hypotheses': [{u'transcript': u'when the.'}], u'final... to client 
+    INFO 2019-01-02 00:14:49,147 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:49,153 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 2, u'result': {u'hypotheses': [{u'transcript': u'when the nuclear.'}],... to client 
+    INFO 2019-01-02 00:14:49,398 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:49,589 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 2, u'result': {u'hypotheses': [{u'transcript': u'when the nuclear atta... to client 
+    INFO 2019-01-02 00:14:49,649 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:49,856 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 2, u'result': {u'hypotheses': [{u'transcript': u'when the nuclear atta... to client 
+    INFO 2019-01-02 00:14:49,900 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:50,067 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 2, u'result': {u'hypotheses': [{u'transcript': u'when the nuclear atta... to client 
+    INFO 2019-01-02 00:14:50,151 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:50,278 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 2, u'result': {u'hypotheses': [{u'transcript': u'when the nuclear atta... to client 
+    INFO 2019-01-02 00:14:50,402 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:50,512 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 2, u'result': {u'hypotheses': [{u'transcript': u'when the nuclear atta... to client 
+    INFO 2019-01-02 00:14:50,653 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:50,768 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 2, u'result': {u'hypotheses': [{u'transcript': u'when the nuclear atta... to client 
+    INFO 2019-01-02 00:14:50,904 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:51,155 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:51,309 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 2, u'result': {u'hypotheses': [{u'transcript': u'when the nuclear atta... to client 
+    INFO 2019-01-02 00:14:51,406 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:51,533 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 2, u'result': {u'hypotheses': [{u'transcript': u'when the nuclear atta... to client 
+    INFO 2019-01-02 00:14:51,657 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:51,792 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 2, u'result': {u'hypotheses': [{u'transcript': u'when the nuclear atta... to client 
+    INFO 2019-01-02 00:14:51,908 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:52,159 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:52,410 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:52,521 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 2, u'result': {u'hypotheses': [{u'transcript': u'when the nuclear atta... to client 
+    INFO 2019-01-02 00:14:52,661 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:52,800 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 2, u'result': {u'hypotheses': [{u'transcript': u'when the nuclear atta... to client 
+    INFO 2019-01-02 00:14:52,913 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:53,081 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 2, u'result': {u'hypotheses': [{u'transcript': u'when the nuclear atta... to client 
+    INFO 2019-01-02 00:14:53,164 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:53,415 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:53,666 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:53,675 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 2, u'result': {u'hypotheses': [{u'transcript': u'when the nuclear atta... to client 
+    INFO 2019-01-02 00:14:53,917 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:54,168 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:54,419 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:54,590 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment-start': 13.38, u'segment-length': 6.0, u'total-length': 19.38, u'result'... to client 
+    INFO 2019-01-02 00:14:54,670 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:54,920 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:55,171 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:55,422 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:55,673 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:55,925 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:56,176 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:56,288 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 3, u'result': {u'hypotheses': [{u'transcript': u'today.'}], u'final': ... to client 
+    INFO 2019-01-02 00:14:56,427 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:56,550 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 3, u'result': {u'hypotheses': [{u'transcript': u'today the.'}], u'fina... to client 
+    INFO 2019-01-02 00:14:56,678 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:56,929 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:57,180 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:57,431 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:57,530 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 3, u'result': {u'hypotheses': [{u'transcript': u'today the greatest.'}... to client 
+    INFO 2019-01-02 00:14:57,682 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:57,879 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 3, u'result': {u'hypotheses': [{u'transcript': u'today the greatest ri... to client 
+    INFO 2019-01-02 00:14:57,933 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:58,084 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 3, u'result': {u'hypotheses': [{u'transcript': u'today the greatest ri... to client 
+    INFO 2019-01-02 00:14:58,184 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:58,435 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:58,592 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 3, u'result': {u'hypotheses': [{u'transcript': u'today the greatest ri... to client 
+    INFO 2019-01-02 00:14:58,686 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:58,781 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 3, u'result': {u'hypotheses': [{u'transcript': u'today the greatest ri... to client 
+    INFO 2019-01-02 00:14:58,937 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:59,188 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:59,439 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:59,690 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:14:59,941 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:00,032 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment-start': 19.38, u'segment-length': 5.5, u'total-length': 24.88, u'result'... to client 
+    INFO 2019-01-02 00:15:00,192 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:00,443 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:00,670 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 4, u'result': {u'hypotheses': [{u'transcript': u"doesn't look."}], u'f... to client 
+    INFO 2019-01-02 00:15:00,694 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:00,844 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 4, u'result': {u'hypotheses': [{u'transcript': u"doesn't look like."}]... to client 
+    INFO 2019-01-02 00:15:00,945 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:01,002 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 4, u'result': {u'hypotheses': [{u'transcript': u"doesn't look like thi... to client 
+    INFO 2019-01-02 00:15:01,196 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:01,447 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:01,698 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:01,906 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 4, u'result': {u'hypotheses': [{u'transcript': u"doesn't look like thi... to client 
+    INFO 2019-01-02 00:15:01,949 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:02,178 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 4, u'result': {u'hypotheses': [{u'transcript': u"doesn't look like thi... to client 
+    INFO 2019-01-02 00:15:02,200 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:02,452 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:02,703 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:02,892 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 4, u'result': {u'hypotheses': [{u'transcript': u"doesn't look like thi... to client 
+    INFO 2019-01-02 00:15:02,954 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:03,090 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 4, u'result': {u'hypotheses': [{u'transcript': u"doesn't look like thi... to client 
+    INFO 2019-01-02 00:15:03,205 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:03,456 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:03,707 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:03,958 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:04,209 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:04,460 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:04,711 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:04,962 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:05,214 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:05,437 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment-start': 24.88, u'segment-length': 5.89, u'total-length': 30.77, u'result... to client 
+    INFO 2019-01-02 00:15:05,465 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:05,716 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:05,967 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:06,218 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:06,380 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 5, u'result': {u'hypotheses': [{u'transcript': u'if.'}], u'final': Fal... to client 
+    INFO 2019-01-02 00:15:06,469 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:06,585 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 5, u'result': {u'hypotheses': [{u'transcript': u'if anything.'}], u'fi... to client 
+    INFO 2019-01-02 00:15:06,720 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:06,971 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:07,222 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:07,401 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 5, u'result': {u'hypotheses': [{u'transcript': u'if anything kills ove... to client 
+    INFO 2019-01-02 00:15:07,473 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:07,724 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:07,886 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 5, u'result': {u'hypotheses': [{u'transcript': u'if anything kills ove... to client 
+    INFO 2019-01-02 00:15:07,975 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:08,090 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 5, u'result': {u'hypotheses': [{u'transcript': u'if anything kills ove... to client 
+    INFO 2019-01-02 00:15:08,226 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:08,477 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:08,725 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 5, u'result': {u'hypotheses': [{u'transcript': u'if anything kills ove... to client 
+    INFO 2019-01-02 00:15:08,728 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:08,980 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:09,007 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 5, u'result': {u'hypotheses': [{u'transcript': u'if anything kills ove... to client 
+    INFO 2019-01-02 00:15:09,231 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:09,449 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 5, u'result': {u'hypotheses': [{u'transcript': u'if anything kills ove... to client 
+    INFO 2019-01-02 00:15:09,482 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:09,733 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:09,753 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 5, u'result': {u'hypotheses': [{u'transcript': u'if anything kills ove... to client 
+    INFO 2019-01-02 00:15:09,984 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:10,235 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:10,486 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:10,660 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 5, u'result': {u'hypotheses': [{u'transcript': u"if anything kills ove... to client 
+    INFO 2019-01-02 00:15:10,737 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:10,931 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 5, u'result': {u'hypotheses': [{u'transcript': u"if anything kills ove... to client 
+    INFO 2019-01-02 00:15:10,988 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:11,239 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:11,271 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 5, u'result': {u'hypotheses': [{u'transcript': u"if anything kills ove... to client 
+    INFO 2019-01-02 00:15:11,490 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:11,741 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:11,875 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 5, u'result': {u'hypotheses': [{u'transcript': u"if anything kills ove... to client 
+    INFO 2019-01-02 00:15:11,992 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:12,243 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:12,343 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 5, u'result': {u'hypotheses': [{u'transcript': u"if anything kills ove... to client 
+    INFO 2019-01-02 00:15:12,494 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:12,675 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 5, u'result': {u'hypotheses': [{u'transcript': u"if anything kills ove... to client 
+    INFO 2019-01-02 00:15:12,745 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:12,997 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:13,248 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:13,499 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:13,750 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:13,791 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 5, u'result': {u'hypotheses': [{u'transcript': u"if anything kills ove... to client 
+    INFO 2019-01-02 00:15:14,001 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:14,252 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:14,377 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 5, u'result': {u'hypotheses': [{u'transcript': u"if anything kills ove... to client 
+    INFO 2019-01-02 00:15:14,503 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:14,754 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:15,005 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:15,135 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 5, u'result': {u'hypotheses': [{u'transcript': u"if anything kills ove... to client 
+    INFO 2019-01-02 00:15:15,256 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:15,507 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:15,758 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:16,009 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:16,260 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:16,512 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:16,763 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:16,848 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment-start': 30.77, u'segment-length': 11.84, u'total-length': 42.61, u'resul... to client 
+    INFO 2019-01-02 00:15:17,014 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:17,264 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:17,500 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 6, u'result': {u'hypotheses': [{u'transcript': u'not.'}], u'final': Fa... to client 
+    INFO 2019-01-02 00:15:17,516 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:17,767 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:18,018 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:18,269 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:18,290 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 6, u'result': {u'hypotheses': [{u'transcript': u'not missiles.'}], u'f... to client 
+    INFO 2019-01-02 00:15:18,520 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:18,735 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 6, u'result': {u'hypotheses': [{u'transcript': u'not missiles that.'}]... to client 
+    INFO 2019-01-02 00:15:18,771 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:19,022 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:19,273 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:19,524 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:19,528 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 6, u'result': {u'hypotheses': [{u'transcript': u'not missiles that mic... to client 
+    INFO 2019-01-02 00:15:19,775 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:20,026 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:20,278 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:20,529 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:20,779 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:21,002 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 6, u'result': {u'hypotheses': [{u'transcript': u'not missiles that mic... to client 
+    INFO 2019-01-02 00:15:21,031 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:21,281 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:21,533 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:21,746 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 6, u'result': {u'hypotheses': [{u'transcript': u'not missiles that mic... to client 
+    INFO 2019-01-02 00:15:21,784 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:22,035 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:22,286 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:22,363 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 6, u'result': {u'hypotheses': [{u'transcript': u'not missiles that mic... to client 
+    INFO 2019-01-02 00:15:22,537 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:22,788 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:22,934 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 6, u'result': {u'hypotheses': [{u'transcript': u'not missiles that mic... to client 
+    INFO 2019-01-02 00:15:23,039 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:23,290 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:23,481 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 6, u'result': {u'hypotheses': [{u'transcript': u'not missiles that mic... to client 
+    INFO 2019-01-02 00:15:23,541 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:23,792 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:23,931 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 6, u'result': {u'hypotheses': [{u'transcript': u'not missiles that mic... to client 
+    INFO 2019-01-02 00:15:24,043 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:24,111 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 6, u'result': {u'hypotheses': [{u'transcript': u'not missiles that mic... to client 
+    INFO 2019-01-02 00:15:24,294 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:24,426 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 6, u'result': {u'hypotheses': [{u'transcript': u'not missiles that mic... to client 
+    INFO 2019-01-02 00:15:24,545 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:24,796 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:24,892 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 6, u'result': {u'hypotheses': [{u'transcript': u'not missiles that mic... to client 
+    INFO 2019-01-02 00:15:25,047 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:25,169 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 6, u'result': {u'hypotheses': [{u'transcript': u'not missiles that mic... to client 
+    INFO 2019-01-02 00:15:25,298 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:25,550 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:25,750 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 6, u'result': {u'hypotheses': [{u'transcript': u'not missiles that mic... to client 
+    INFO 2019-01-02 00:15:25,801 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:25,881 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 6, u'result': {u'hypotheses': [{u'transcript': u'not missiles that mic... to client 
+    INFO 2019-01-02 00:15:26,052 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:26,303 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:26,554 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:26,732 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 6, u'result': {u'hypotheses': [{u'transcript': u"not missiles that mic... to client 
+    INFO 2019-01-02 00:15:26,805 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:26,963 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 6, u'result': {u'hypotheses': [{u'transcript': u"not missiles that mic... to client 
+    INFO 2019-01-02 00:15:27,056 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:27,307 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:27,558 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:27,632 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 6, u'result': {u'hypotheses': [{u'transcript': u"not missiles that mic... to client 
+    INFO 2019-01-02 00:15:27,809 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:28,060 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:28,304 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 6, u'result': {u'hypotheses': [{u'transcript': u"not missiles that mic... to client 
+    INFO 2019-01-02 00:15:28,311 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:28,562 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:28,813 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:29,064 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:29,130 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 6, u'result': {u'hypotheses': [{u'transcript': u"not missiles that mic... to client 
+    INFO 2019-01-02 00:15:29,315 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:29,567 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:29,710 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 6, u'result': {u'hypotheses': [{u'transcript': u"not missiles that mic... to client 
+    INFO 2019-01-02 00:15:29,818 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:29,956 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 6, u'result': {u'hypotheses': [{u'transcript': u"not missiles that mic... to client 
+    INFO 2019-01-02 00:15:30,069 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:30,254 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 6, u'result': {u'hypotheses': [{u'transcript': u"not missiles that mic... to client 
+    INFO 2019-01-02 00:15:30,320 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:30,571 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:30,650 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 6, u'result': {u'hypotheses': [{u'transcript': u"not missiles that mic... to client 
+    INFO 2019-01-02 00:15:30,822 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:31,073 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:31,324 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:31,575 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:31,826 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:31,882 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment-start': 42.61, u'segment-length': 15.77, u'total-length': 58.38, u'resul... to client 
+    INFO 2019-01-02 00:15:32,077 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:32,328 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:32,579 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 2048 to worker 
+    INFO 2019-01-02 00:15:32,791 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 7, u'result': {u'hypotheses': [{u'transcript': u"we're."}], u'final': ... to client 
+    INFO 2019-01-02 00:15:32,830 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'str'>) of length 1130 to worker 
+    INFO 2019-01-02 00:15:32,831 7b920fcc-764a-45ef-affa-229ccf180728: Forwarding client message (<type 'unicode'>) of length 3 to worker 
+    INFO 2019-01-02 00:15:33,045 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 7, u'result': {u'hypotheses': [{u'transcript': u"we're not."}], u'fina... to client 
+    INFO 2019-01-02 00:15:33,255 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 7, u'result': {u'hypotheses': [{u'transcript': u"we're not ready."}], ... to client 
+    INFO 2019-01-02 00:15:33,724 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 7, u'result': {u'hypotheses': [{u'transcript': u"we're not ready for."... to client 
+    INFO 2019-01-02 00:15:33,952 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 7, u'result': {u'hypotheses': [{u'transcript': u"we're not ready for t... to client 
+    INFO 2019-01-02 00:15:34,214 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment': 7, u'result': {u'hypotheses': [{u'transcript': u"we're not ready for t... to client 
+    INFO 2019-01-02 00:15:34,951 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'segment-start': 58.38, u'segment-length': 3.64, u'total-length': 62.02, u'result... to client 
+    INFO 2019-01-02 00:15:35,068 7b920fcc-764a-45ef-affa-229ccf180728: Sending event {u'status': 0, u'adaptation_state': {u'type': u'string+gzip+base64', u'id': u'7b920fcc-764a-45ef-... to client 
+    INFO 2019-01-02 00:15:35,069 Worker <__main__.WorkerSocketHandler object at 0x7fccc9425990> leaving 
+    INFO 2019-01-02 00:15:35,079 7b920fcc-764a-45ef-affa-229ccf180728: Handling on_connection_close() 
+    INFO 2019-01-02 00:15:35,079 7b920fcc-764a-45ef-affa-229ccf180728: Closing worker connection 
+    INFO 2019-01-02 00:15:36,073 101 GET /worker/ws/speech (::1) 0.65ms 
+    INFO 2019-01-02 00:15:36,073 New worker available <__main__.WorkerSocketHandler object at 0x7fccc941bd10> 
+    INFO 2019-01-02 00:15:48,771 9e268fcc-768f-494e-99cf-7ca1241cc7c8: OPEN: user='none', content='none' 
+    INFO 2019-01-02 00:15:48,772 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Using worker <__main__.HttpChunkedRecognizeHandler object at 0x7fccc942b550> 
+    INFO 2019-01-02 00:15:48,775 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Handling the end of chunked recognize request 
+    INFO 2019-01-02 00:15:48,775 9e268fcc-768f-494e-99cf-7ca1241cc7c8: yielding... 
+    INFO 2019-01-02 00:15:48,779 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Waiting for final result... 
+    INFO 2019-01-02 00:15:50,370 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Receiving event {u'status': 0, u'segment': 0, u'result': {u'hypotheses': [{u'transcript': u'one.'}], u'final': Fa... from worker 
+    INFO 2019-01-02 00:15:50,626 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Receiving event {u'status': 0, u'segment': 0, u'result': {u'hypotheses': [{u'transcript': u'one two.'}], u'final'... from worker 
+    INFO 2019-01-02 00:15:50,903 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Receiving event {u'status': 0, u'segment': 0, u'result': {u'hypotheses': [{u'transcript': u'one two three.'}], u'... from worker 
+    INFO 2019-01-02 00:15:51,497 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Receiving event {u'status': 0, u'segment': 0, u'result': {u'hypotheses': [{u'transcript': u'one two three four.'}... from worker 
+    INFO 2019-01-02 00:15:52,082 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Receiving event {u'status': 0, u'segment': 0, u'result': {u'hypotheses': [{u'transcript': u'one two three four fi... from worker 
+    INFO 2019-01-02 00:15:52,612 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Receiving event {u'status': 0, u'segment': 0, u'result': {u'hypotheses': [{u'transcript': u'one two three four fi... from worker 
+    INFO 2019-01-02 00:15:52,887 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Receiving event {u'status': 0, u'segment': 0, u'result': {u'hypotheses': [{u'transcript': u'one two three four fi... from worker 
+    INFO 2019-01-02 00:15:53,502 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Receiving event {u'status': 0, u'segment': 0, u'result': {u'hypotheses': [{u'transcript': u'one two three four fi... from worker 
+    INFO 2019-01-02 00:15:54,478 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Receiving event {u'status': 0, u'segment': 0, u'result': {u'hypotheses': [{u'transcript': u'one two three four fi... from worker 
+    INFO 2019-01-02 00:15:57,911 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Receiving event {u'status': 0, u'segment-start': 0.0, u'segment-length': 6.12, u'total-length': 6.12, u'result': ... from worker 
+    INFO 2019-01-02 00:15:58,012 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Receiving event {u'status': 0, u'adaptation_state': {u'type': u'string+gzip+base64', u'id': u'9e268fcc-768f-494e-... from worker 
+    INFO 2019-01-02 00:15:58,013 Worker <__main__.WorkerSocketHandler object at 0x7fccc941b050> leaving 
+    INFO 2019-01-02 00:15:58,014 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Receiving 'close' from worker 
+    INFO 2019-01-02 00:15:58,014 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Final hyp: one two three four five six seven eight. 
+    INFO 2019-01-02 00:15:58,015 200 PUT /client/dynamic/recognize (::1) 9243.66ms 
+    INFO 2019-01-02 00:15:58,015 Everything done 
+    INFO 2019-01-02 00:15:59,017 101 GET /worker/ws/speech (::1) 0.72ms 
+    INFO 2019-01-02 00:15:59,017 New worker available <__main__.WorkerSocketHandler object at 0x7fccc8b8b850> 
+    INFO 2019-01-02 00:16:24,090 a4f600fb-bdc9-4319-b4af-46d6d0ce6e63: OPEN: user='none', content='none' 
+    INFO 2019-01-02 00:16:24,091 a4f600fb-bdc9-4319-b4af-46d6d0ce6e63: Using worker <__main__.HttpChunkedRecognizeHandler object at 0x7fccc8b8bf90> 
+    INFO 2019-01-02 00:16:24,094 a4f600fb-bdc9-4319-b4af-46d6d0ce6e63: Handling the end of chunked recognize request 
+    INFO 2019-01-02 00:16:24,094 a4f600fb-bdc9-4319-b4af-46d6d0ce6e63: yielding... 
+    INFO 2019-01-02 00:16:24,096 a4f600fb-bdc9-4319-b4af-46d6d0ce6e63: Waiting for final result... 
+    INFO 2019-01-02 00:16:25,405 a4f600fb-bdc9-4319-b4af-46d6d0ce6e63: Receiving event {u'status': 0, u'segment': 0, u'result': {u'hypotheses': [{u'transcript': u'i.'}], u'final': False}} from worker 
+    INFO 2019-01-02 00:16:25,623 a4f600fb-bdc9-4319-b4af-46d6d0ce6e63: Receiving event {u'status': 0, u'segment': 0, u'result': {u'hypotheses': [{u'transcript': u'i want.'}], u'final':... from worker 
+    INFO 2019-01-02 00:16:25,881 a4f600fb-bdc9-4319-b4af-46d6d0ce6e63: Receiving event {u'status': 0, u'segment': 0, u'result': {u'hypotheses': [{u'transcript': u'i want by.'}], u'fina... from worker 
+    INFO 2019-01-02 00:16:26,411 a4f600fb-bdc9-4319-b4af-46d6d0ce6e63: Receiving event {u'status': 0, u'segment': 0, u'result': {u'hypotheses': [{u'transcript': u'i will buy a pair.'}]... from worker 
+    INFO 2019-01-02 00:16:27,049 a4f600fb-bdc9-4319-b4af-46d6d0ce6e63: Receiving event {u'status': 0, u'segment': 0, u'result': {u'hypotheses': [{u'transcript': u'i will buy a pair of.... from worker 
+    INFO 2019-01-02 00:16:27,347 a4f600fb-bdc9-4319-b4af-46d6d0ce6e63: Receiving event {u'status': 0, u'segment': 0, u'result': {u'hypotheses': [{u'transcript': u'i will buy a pair cal... from worker 
+    INFO 2019-01-02 00:16:27,961 a4f600fb-bdc9-4319-b4af-46d6d0ce6e63: Receiving event {u'status': 0, u'segment': 0, u'result': {u'hypotheses': [{u'transcript': u'i will buy a pair cal... from worker 
+    INFO 2019-01-02 00:16:28,265 a4f600fb-bdc9-4319-b4af-46d6d0ce6e63: Receiving event {u'status': 0, u'segment': 0, u'result': {u'hypotheses': [{u'transcript': u'i will buy a pair cal... from worker 
+    INFO 2019-01-02 00:16:29,244 a4f600fb-bdc9-4319-b4af-46d6d0ce6e63: Receiving event {u'status': 0, u'segment': 0, u'result': {u'hypotheses': [{u'transcript': u'i will buy a pair cal... from worker 
+    INFO 2019-01-02 00:16:29,909 a4f600fb-bdc9-4319-b4af-46d6d0ce6e63: Receiving event {u'status': 0, u'segment': 0, u'result': {u'hypotheses': [{u'transcript': u'i will buy a pair cal... from worker 
+    INFO 2019-01-02 00:16:30,341 a4f600fb-bdc9-4319-b4af-46d6d0ce6e63: Receiving event {u'status': 0, u'segment': 0, u'result': {u'hypotheses': [{u'transcript': u'i will buy a pair cal... from worker 
+    INFO 2019-01-02 00:16:30,680 a4f600fb-bdc9-4319-b4af-46d6d0ce6e63: Receiving event {u'status': 0, u'segment': 0, u'result': {u'hypotheses': [{u'transcript': u'i will buy a pair cal... from worker 
+    INFO 2019-01-02 00:16:37,444 a4f600fb-bdc9-4319-b4af-46d6d0ce6e63: Receiving event {u'status': 0, u'segment-start': 0.0, u'segment-length': 7.0, u'total-length': 7.0, u'result': {u... from worker 
+    INFO 2019-01-02 00:16:37,595 a4f600fb-bdc9-4319-b4af-46d6d0ce6e63: Receiving event {u'status': 0, u'adaptation_state': {u'type': u'string+gzip+base64', u'id': u'a4f600fb-bdc9-4319-... from worker 
+    INFO 2019-01-02 00:16:37,596 Worker <__main__.WorkerSocketHandler object at 0x7fccc941bd10> leaving 
+    INFO 2019-01-02 00:16:37,596 a4f600fb-bdc9-4319-b4af-46d6d0ce6e63: Receiving 'close' from worker 
+    INFO 2019-01-02 00:16:37,597 a4f600fb-bdc9-4319-b4af-46d6d0ce6e63: Final hyp: i will buy a pair of t.d.'s brand sound policies. 
+    INFO 2019-01-02 00:16:37,597 200 PUT /client/dynamic/recognize (::1) 13507.90ms 
+    INFO 2019-01-02 00:16:37,598 Everything done 
+    INFO 2019-01-02 00:16:38,600 101 GET /worker/ws/speech (::1) 0.70ms 
+    INFO 2019-01-02 00:16:38,600 New worker available <__main__.WorkerSocketHandler object at 0x7fccc942b290> 

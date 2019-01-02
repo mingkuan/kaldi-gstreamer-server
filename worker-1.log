@@ -1,0 +1,188 @@
+   DEBUG 2019-01-01 23:57:48,208 Starting up worker 
+2019-01-01 23:57:48 -    INFO:   decoder2: Creating decoder using conf: {'post-processor': "perl -npe 'BEGIN {use IO::Handle; STDOUT->autoflush(1);} s/(.*)/\\1./;'", 'logging': {'version': 1, 'root': {'level': 'DEBUG', 'handlers': ['console']}, 'formatters': {'simpleFormater': {'datefmt': '%Y-%m-%d %H:%M:%S', 'format': '%(asctime)s - %(levelname)7s: %(name)10s: %(message)s'}}, 'disable_existing_loggers': False, 'handlers': {'console': {'formatter': 'simpleFormater', 'class': 'logging.StreamHandler', 'level': 'DEBUG'}}}, 'use-nnet2': True, 'full-post-processor': './sample_full_post_processor.py', 'decoder': {'big-lm-const-arpa': 'test/models/english/tedlium_nnet_ms_sp_online/G.carpa', 'ivector-extraction-config': 'test/models/english/tedlium_nnet_ms_sp_online/conf/ivector_extractor.conf', 'lattice-beam': 10.0, 'word-boundary-file': 'test/models/english/tedlium_nnet_ms_sp_online/word_boundary.int', 'acoustic-scale': 0.083, 'do-endpointing': True, 'beam': 20.0, 'mfcc-config': 'test/models/english/tedlium_nnet_ms_sp_online/conf/mfcc.conf', 'traceback-period-in-secs': 0.25, 'endpoint-silence-phones': '1:2:3:4:5:6:7:8:9:10', 'word-syms': 'test/models/english/tedlium_nnet_ms_sp_online/words.txt', 'num-nbest': 5, 'lm-fst': 'test/models/english/tedlium_nnet_ms_sp_online/G.fst', 'max-active': 10000, 'fst': 'test/models/english/tedlium_nnet_ms_sp_online/HCLG.fst', 'use-threaded-decoder': True, 'model': 'test/models/english/tedlium_nnet_ms_sp_online/final.mdl', 'chunk-length-in-secs': 0.25}, 'silence-timeout': 10, 'out-dir': 'tmp', 'use-vad': False}
+2019-01-01 23:57:48 -    INFO:   decoder2: Setting decoder property: big-lm-const-arpa = test/models/english/tedlium_nnet_ms_sp_online/G.carpa
+2019-01-01 23:57:57 -    INFO:   decoder2: Setting decoder property: ivector-extraction-config = test/models/english/tedlium_nnet_ms_sp_online/conf/ivector_extractor.conf
+2019-01-01 23:57:57 -    INFO:   decoder2: Setting decoder property: lattice-beam = 10.0
+2019-01-01 23:57:57 -    INFO:   decoder2: Setting decoder property: word-boundary-file = test/models/english/tedlium_nnet_ms_sp_online/word_boundary.int
+2019-01-01 23:57:57 -    INFO:   decoder2: Setting decoder property: acoustic-scale = 0.083
+2019-01-01 23:57:57 -    INFO:   decoder2: Setting decoder property: do-endpointing = True
+2019-01-01 23:57:57 -    INFO:   decoder2: Setting decoder property: beam = 20.0
+2019-01-01 23:57:57 -    INFO:   decoder2: Setting decoder property: mfcc-config = test/models/english/tedlium_nnet_ms_sp_online/conf/mfcc.conf
+2019-01-01 23:57:57 -    INFO:   decoder2: Setting decoder property: traceback-period-in-secs = 0.25
+2019-01-01 23:57:57 -    INFO:   decoder2: Setting decoder property: endpoint-silence-phones = 1:2:3:4:5:6:7:8:9:10
+2019-01-01 23:57:57 -    INFO:   decoder2: Setting decoder property: word-syms = test/models/english/tedlium_nnet_ms_sp_online/words.txt
+2019-01-01 23:57:57 -    INFO:   decoder2: Setting decoder property: num-nbest = 5
+2019-01-01 23:57:57 -    INFO:   decoder2: Setting decoder property: lm-fst = test/models/english/tedlium_nnet_ms_sp_online/G.fst
+2019-01-01 23:57:58 -    INFO:   decoder2: Setting decoder property: max-active = 10000
+2019-01-01 23:57:58 -    INFO:   decoder2: Setting decoder property: chunk-length-in-secs = 0.25
+2019-01-01 23:57:58 -    INFO:   decoder2: Setting decoder property: fst = test/models/english/tedlium_nnet_ms_sp_online/HCLG.fst
+2019-01-01 23:58:03 -    INFO:   decoder2: Setting decoder property: model = test/models/english/tedlium_nnet_ms_sp_online/final.mdl
+2019-01-01 23:58:03 -    INFO:   decoder2: Created GStreamer elements
+2019-01-01 23:58:03 -   DEBUG:   decoder2: Adding <__gi__.GstAppSrc object at 0x7fb63ce41230 (GstAppSrc at 0x15a87b0)> to the pipeline
+2019-01-01 23:58:03 -   DEBUG:   decoder2: Adding <__gi__.GstDecodeBin object at 0x7fb63ce41410 (GstDecodeBin at 0x14d2070)> to the pipeline
+2019-01-01 23:58:03 -   DEBUG:   decoder2: Adding <__gi__.GstAudioConvert object at 0x7fb63ce41320 (GstAudioConvert at 0x167b8d0)> to the pipeline
+2019-01-01 23:58:03 -   DEBUG:   decoder2: Adding <__gi__.GstAudioResample object at 0x7fb63ce412d0 (GstAudioResample at 0x16d2220)> to the pipeline
+2019-01-01 23:58:03 -   DEBUG:   decoder2: Adding <__gi__.GstTee object at 0x7fb63ce413c0 (GstTee at 0x16d5000)> to the pipeline
+2019-01-01 23:58:03 -   DEBUG:   decoder2: Adding <__gi__.GstQueue object at 0x7fb63ce41280 (GstQueue at 0x16da240)> to the pipeline
+2019-01-01 23:58:03 -   DEBUG:   decoder2: Adding <__gi__.GstFileSink object at 0x7fb63ce41370 (GstFileSink at 0x169a220)> to the pipeline
+2019-01-01 23:58:03 -   DEBUG:   decoder2: Adding <__gi__.GstQueue object at 0x7fb63ce41460 (GstQueue at 0x16da530)> to the pipeline
+2019-01-01 23:58:03 -   DEBUG:   decoder2: Adding <__gi__.Gstkaldinnet2onlinedecoder object at 0x7fb63ce414b0 (Gstkaldinnet2onlinedecoder at 0x16c6250)> to the pipeline
+2019-01-01 23:58:03 -   DEBUG:   decoder2: Adding <__gi__.GstFakeSink object at 0x7fb63ce41500 (GstFakeSink at 0x180aa10)> to the pipeline
+2019-01-01 23:58:03 -    INFO:   decoder2: Linking GStreamer elements
+LOG ([5.5.152~1-55aa]:ComputeDerivedVars():ivector-extractor.cc:183) Computing derived variables for iVector extractor
+LOG ([5.5.152~1-55aa]:ComputeDerivedVars():ivector-extractor.cc:204) Done.
+2019-01-01 23:58:03 -    INFO:   decoder2: Setting pipeline to READY
+2019-01-01 23:58:03 -    INFO:   decoder2: Set pipeline to READY
+2019-01-01 23:58:03 -    INFO:   __main__: Opening websocket connection to master server
+2019-01-01 23:58:03 -    INFO:   __main__: Opened websocket connection to server
+2019-01-02 00:03:39 -   DEBUG:   __main__: <undefined>: Websocket closed() called
+2019-01-02 00:03:39 -    INFO:   decoder2: <undefined>: Resetting decoder state
+2019-01-02 00:03:39 -   DEBUG:   __main__: <undefined>: Websocket closed() finished
+2019-01-02 00:03:40 -    INFO:   __main__: Opening websocket connection to master server
+2019-01-02 00:03:40 -   ERROR:   __main__: Couldn't connect to server, waiting for 5 seconds
+   DEBUG 2019-01-02 00:13:09,756 Starting up worker 
+2019-01-02 00:13:09 -    INFO:   decoder2: Creating decoder using conf: {'post-processor': "perl -npe 'BEGIN {use IO::Handle; STDOUT->autoflush(1);} s/(.*)/\\1./;'", 'logging': {'version': 1, 'root': {'level': 'DEBUG', 'handlers': ['console']}, 'formatters': {'simpleFormater': {'datefmt': '%Y-%m-%d %H:%M:%S', 'format': '%(asctime)s - %(levelname)7s: %(name)10s: %(message)s'}}, 'disable_existing_loggers': False, 'handlers': {'console': {'formatter': 'simpleFormater', 'class': 'logging.StreamHandler', 'level': 'DEBUG'}}}, 'use-nnet2': True, 'full-post-processor': './sample_full_post_processor.py', 'decoder': {'big-lm-const-arpa': 'test/models/english/tedlium_nnet_ms_sp_online/G.carpa', 'ivector-extraction-config': 'test/models/english/tedlium_nnet_ms_sp_online/conf/ivector_extractor.conf', 'lattice-beam': 10.0, 'word-boundary-file': 'test/models/english/tedlium_nnet_ms_sp_online/word_boundary.int', 'acoustic-scale': 0.083, 'do-endpointing': True, 'beam': 20.0, 'mfcc-config': 'test/models/english/tedlium_nnet_ms_sp_online/conf/mfcc.conf', 'traceback-period-in-secs': 0.25, 'endpoint-silence-phones': '1:2:3:4:5:6:7:8:9:10', 'word-syms': 'test/models/english/tedlium_nnet_ms_sp_online/words.txt', 'num-nbest': 5, 'lm-fst': 'test/models/english/tedlium_nnet_ms_sp_online/G.fst', 'max-active': 10000, 'fst': 'test/models/english/tedlium_nnet_ms_sp_online/HCLG.fst', 'use-threaded-decoder': True, 'model': 'test/models/english/tedlium_nnet_ms_sp_online/final.mdl', 'chunk-length-in-secs': 0.25}, 'silence-timeout': 10, 'out-dir': 'tmp', 'use-vad': False}
+2019-01-02 00:13:09 -    INFO:   decoder2: Setting decoder property: big-lm-const-arpa = test/models/english/tedlium_nnet_ms_sp_online/G.carpa
+2019-01-02 00:13:18 -    INFO:   decoder2: Setting decoder property: ivector-extraction-config = test/models/english/tedlium_nnet_ms_sp_online/conf/ivector_extractor.conf
+2019-01-02 00:13:18 -    INFO:   decoder2: Setting decoder property: lattice-beam = 10.0
+2019-01-02 00:13:18 -    INFO:   decoder2: Setting decoder property: word-boundary-file = test/models/english/tedlium_nnet_ms_sp_online/word_boundary.int
+2019-01-02 00:13:18 -    INFO:   decoder2: Setting decoder property: acoustic-scale = 0.083
+2019-01-02 00:13:18 -    INFO:   decoder2: Setting decoder property: do-endpointing = True
+2019-01-02 00:13:18 -    INFO:   decoder2: Setting decoder property: beam = 20.0
+2019-01-02 00:13:18 -    INFO:   decoder2: Setting decoder property: mfcc-config = test/models/english/tedlium_nnet_ms_sp_online/conf/mfcc.conf
+2019-01-02 00:13:18 -    INFO:   decoder2: Setting decoder property: traceback-period-in-secs = 0.25
+2019-01-02 00:13:18 -    INFO:   decoder2: Setting decoder property: endpoint-silence-phones = 1:2:3:4:5:6:7:8:9:10
+2019-01-02 00:13:18 -    INFO:   decoder2: Setting decoder property: word-syms = test/models/english/tedlium_nnet_ms_sp_online/words.txt
+2019-01-02 00:13:18 -    INFO:   decoder2: Setting decoder property: num-nbest = 5
+2019-01-02 00:13:18 -    INFO:   decoder2: Setting decoder property: lm-fst = test/models/english/tedlium_nnet_ms_sp_online/G.fst
+2019-01-02 00:13:20 -    INFO:   decoder2: Setting decoder property: max-active = 10000
+2019-01-02 00:13:20 -    INFO:   decoder2: Setting decoder property: chunk-length-in-secs = 0.25
+2019-01-02 00:13:20 -    INFO:   decoder2: Setting decoder property: fst = test/models/english/tedlium_nnet_ms_sp_online/HCLG.fst
+2019-01-02 00:13:24 -    INFO:   decoder2: Setting decoder property: model = test/models/english/tedlium_nnet_ms_sp_online/final.mdl
+2019-01-02 00:13:24 -    INFO:   decoder2: Created GStreamer elements
+2019-01-02 00:13:24 -   DEBUG:   decoder2: Adding <__gi__.GstAppSrc object at 0x7f16e2d8d230 (GstAppSrc at 0x1da97b0)> to the pipeline
+2019-01-02 00:13:24 -   DEBUG:   decoder2: Adding <__gi__.GstDecodeBin object at 0x7f16e2d8d410 (GstDecodeBin at 0x1cd2070)> to the pipeline
+2019-01-02 00:13:24 -   DEBUG:   decoder2: Adding <__gi__.GstAudioConvert object at 0x7f16e2d8d320 (GstAudioConvert at 0x1e7c8d0)> to the pipeline
+2019-01-02 00:13:24 -   DEBUG:   decoder2: Adding <__gi__.GstAudioResample object at 0x7f16e2d8d2d0 (GstAudioResample at 0x1ed4220)> to the pipeline
+2019-01-02 00:13:24 -   DEBUG:   decoder2: Adding <__gi__.GstTee object at 0x7f16e2d8d3c0 (GstTee at 0x1ed6000)> to the pipeline
+2019-01-02 00:13:24 -   DEBUG:   decoder2: Adding <__gi__.GstQueue object at 0x7f16e2d8d280 (GstQueue at 0x1eda240)> to the pipeline
+2019-01-02 00:13:24 -   DEBUG:   decoder2: Adding <__gi__.GstFileSink object at 0x7f16e2d8d370 (GstFileSink at 0x1ec3a10)> to the pipeline
+2019-01-02 00:13:24 -   DEBUG:   decoder2: Adding <__gi__.GstQueue object at 0x7f16e2d8d460 (GstQueue at 0x1eda530)> to the pipeline
+2019-01-02 00:13:24 -   DEBUG:   decoder2: Adding <__gi__.Gstkaldinnet2onlinedecoder object at 0x7f16e2d8d4b0 (Gstkaldinnet2onlinedecoder at 0x1ec6250)> to the pipeline
+2019-01-02 00:13:24 -   DEBUG:   decoder2: Adding <__gi__.GstFakeSink object at 0x7f16e2d8d500 (GstFakeSink at 0x200ba10)> to the pipeline
+2019-01-02 00:13:24 -    INFO:   decoder2: Linking GStreamer elements
+LOG ([5.5.152~1-55aa]:ComputeDerivedVars():ivector-extractor.cc:183) Computing derived variables for iVector extractor
+LOG ([5.5.152~1-55aa]:ComputeDerivedVars():ivector-extractor.cc:204) Done.
+2019-01-02 00:13:24 -    INFO:   decoder2: Setting pipeline to READY
+2019-01-02 00:13:24 -    INFO:   decoder2: Set pipeline to READY
+2019-01-02 00:13:24 -    INFO:   __main__: Opening websocket connection to master server
+2019-01-02 00:13:24 -    INFO:   __main__: Opened websocket connection to server
+2019-01-02 00:15:48 -   DEBUG:   __main__: <undefined>: Got message from server of type <class 'ws4py.messaging.TextMessage'>
+2019-01-02 00:15:48 -    INFO:   decoder2: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Initializing request
+2019-01-02 00:15:48 -    INFO:   __main__: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Started timeout guard
+2019-01-02 00:15:48 -    INFO:   __main__: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Initialized request
+2019-01-02 00:15:48 -   DEBUG:   __main__: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Checking that decoder hasn't been silent for more than 10 seconds
+2019-01-02 00:15:48 -   DEBUG:   __main__: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Got message from server of type <class 'ws4py.messaging.BinaryMessage'>
+2019-01-02 00:15:48 -   DEBUG:   decoder2: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Pushing buffer of size 65536 to pipeline
+2019-01-02 00:15:48 -   DEBUG:   decoder2: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Pushing buffer done
+2019-01-02 00:15:48 -   DEBUG:   __main__: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Got message from server of type <class 'ws4py.messaging.BinaryMessage'>
+2019-01-02 00:15:48 -   DEBUG:   decoder2: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Pushing buffer of size 65536 to pipeline
+2019-01-02 00:15:48 -   DEBUG:   decoder2: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Pushing buffer done
+2019-01-02 00:15:48 -   DEBUG:   __main__: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Got message from server of type <class 'ws4py.messaging.BinaryMessage'>
+2019-01-02 00:15:48 -   DEBUG:   decoder2: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Pushing buffer of size 65536 to pipeline
+2019-01-02 00:15:48 -   DEBUG:   decoder2: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Pushing buffer done
+2019-01-02 00:15:48 -   DEBUG:   __main__: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Got message from server of type <class 'ws4py.messaging.BinaryMessage'>
+2019-01-02 00:15:48 -   DEBUG:   decoder2: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Pushing buffer of size 44 to pipeline
+2019-01-02 00:15:48 -   DEBUG:   decoder2: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Pushing buffer done
+2019-01-02 00:15:48 -   DEBUG:   __main__: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Got message from server of type <class 'ws4py.messaging.BinaryMessage'>
+2019-01-02 00:15:48 -    INFO:   decoder2: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Pushing EOS to pipeline
+2019-01-02 00:15:48 -    INFO:   decoder2: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Connecting audio decoder
+2019-01-02 00:15:48 -    INFO:   decoder2: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Connected audio decoder
+2019-01-02 00:15:49 -   DEBUG:   __main__: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Checking that decoder hasn't been silent for more than 10 seconds
+2019-01-02 00:15:50 -    INFO:   decoder2: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Got partial result: one
+2019-01-02 00:15:50 -    INFO:   __main__: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Postprocessing (final=False) result..
+2019-01-02 00:15:50 -   DEBUG:       root: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Starting postprocessing: one
+2019-01-02 00:15:50 -   DEBUG:       root: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Postprocessing returned: one.
+
+2019-01-02 00:15:50 -    INFO:   __main__: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Postprocessing done.
+2019-01-02 00:15:50 -    INFO:   decoder2: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Got partial result: one two
+2019-01-02 00:15:50 -    INFO:   __main__: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Postprocessing (final=False) result..
+2019-01-02 00:15:50 -   DEBUG:       root: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Starting postprocessing: one two
+2019-01-02 00:15:50 -   DEBUG:       root: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Postprocessing returned: one two.
+
+2019-01-02 00:15:50 -    INFO:   __main__: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Postprocessing done.
+2019-01-02 00:15:50 -   DEBUG:   __main__: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Checking that decoder hasn't been silent for more than 10 seconds
+2019-01-02 00:15:50 -    INFO:   decoder2: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Got partial result: one two three
+2019-01-02 00:15:50 -    INFO:   __main__: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Postprocessing (final=False) result..
+2019-01-02 00:15:50 -   DEBUG:       root: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Starting postprocessing: one two three
+2019-01-02 00:15:50 -   DEBUG:       root: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Postprocessing returned: one two three.
+
+2019-01-02 00:15:50 -    INFO:   __main__: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Postprocessing done.
+2019-01-02 00:15:51 -    INFO:   decoder2: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Got partial result: one two three
+2019-01-02 00:15:51 -    INFO:   decoder2: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Got partial result: one two three four
+2019-01-02 00:15:51 -    INFO:   __main__: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Postprocessing (final=False) result..
+2019-01-02 00:15:51 -   DEBUG:       root: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Starting postprocessing: one two three four
+2019-01-02 00:15:51 -   DEBUG:       root: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Postprocessing returned: one two three four.
+
+2019-01-02 00:15:51 -    INFO:   __main__: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Postprocessing done.
+2019-01-02 00:15:51 -    INFO:   decoder2: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Got partial result: one two three four
+2019-01-02 00:15:51 -   DEBUG:   __main__: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Checking that decoder hasn't been silent for more than 10 seconds
+2019-01-02 00:15:52 -    INFO:   decoder2: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Got partial result: one two three four five
+2019-01-02 00:15:52 -    INFO:   __main__: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Postprocessing (final=False) result..
+2019-01-02 00:15:52 -   DEBUG:       root: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Starting postprocessing: one two three four five
+2019-01-02 00:15:52 -   DEBUG:       root: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Postprocessing returned: one two three four five.
+
+2019-01-02 00:15:52 -    INFO:   __main__: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Postprocessing done.
+2019-01-02 00:15:52 -    INFO:   decoder2: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Got partial result: one two three four five six
+2019-01-02 00:15:52 -    INFO:   __main__: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Postprocessing (final=False) result..
+2019-01-02 00:15:52 -   DEBUG:       root: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Starting postprocessing: one two three four five six
+2019-01-02 00:15:52 -   DEBUG:       root: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Postprocessing returned: one two three four five six.
+
+2019-01-02 00:15:52 -    INFO:   __main__: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Postprocessing done.
+2019-01-02 00:15:52 -   DEBUG:   __main__: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Checking that decoder hasn't been silent for more than 10 seconds
+2019-01-02 00:15:52 -    INFO:   decoder2: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Got partial result: one two three four five six seven
+2019-01-02 00:15:52 -    INFO:   __main__: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Postprocessing (final=False) result..
+2019-01-02 00:15:52 -   DEBUG:       root: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Starting postprocessing: one two three four five six seven
+2019-01-02 00:15:52 -   DEBUG:       root: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Postprocessing returned: one two three four five six seven.
+
+2019-01-02 00:15:52 -    INFO:   __main__: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Postprocessing done.
+2019-01-02 00:15:53 -    INFO:   decoder2: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Got partial result: one two three four five six seven
+2019-01-02 00:15:53 -    INFO:   decoder2: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Got partial result: one two three four five six seven eight
+2019-01-02 00:15:53 -    INFO:   __main__: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Postprocessing (final=False) result..
+2019-01-02 00:15:53 -   DEBUG:       root: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Starting postprocessing: one two three four five six seven eight
+2019-01-02 00:15:53 -   DEBUG:       root: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Postprocessing returned: one two three four five six seven eight.
+
+2019-01-02 00:15:53 -    INFO:   __main__: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Postprocessing done.
+2019-01-02 00:15:53 -   DEBUG:   __main__: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Checking that decoder hasn't been silent for more than 10 seconds
+2019-01-02 00:15:53 -    INFO:   decoder2: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Got partial result: one two three four five six seven eight
+2019-01-02 00:15:54 -    INFO:   decoder2: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Got partial result: one two three four five six seven eight
+2019-01-02 00:15:54 -    INFO:   decoder2: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Got partial result: one two three four five six seven eight to
+2019-01-02 00:15:54 -    INFO:   __main__: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Postprocessing (final=False) result..
+2019-01-02 00:15:54 -   DEBUG:       root: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Starting postprocessing: one two three four five six seven eight to
+2019-01-02 00:15:54 -   DEBUG:       root: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Postprocessing returned: one two three four five six seven eight to.
+
+2019-01-02 00:15:54 -    INFO:   __main__: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Postprocessing done.
+2019-01-02 00:15:54 -   DEBUG:   __main__: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Checking that decoder hasn't been silent for more than 10 seconds
+2019-01-02 00:15:54 -    INFO:   decoder2: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Got partial result: one two three four five six seven eight to
+2019-01-02 00:15:55 -    INFO:   decoder2: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Got partial result: one two three four five six seven eight to
+2019-01-02 00:15:55 -   DEBUG:   __main__: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Checking that decoder hasn't been silent for more than 10 seconds
+2019-01-02 00:15:56 -   DEBUG:   __main__: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Checking that decoder hasn't been silent for more than 10 seconds
+WARNING ([5.5.152~1-55aa]:LatticeWordAligner():word-align-lattice.cc:263) [Lattice has input epsilons and/or is not input-deterministic (in Mohri sense)]-- i.e. lattice is not deterministic.  Word-alignment may be slow and-or blow up in memory.
+WARNING ([5.5.152~1-55aa]:LatticeWordAligner():word-align-lattice.cc:263) [Lattice has input epsilons and/or is not input-deterministic (in Mohri sense)]-- i.e. lattice is not deterministic.  Word-alignment may be slow and-or blow up in memory.
+WARNING ([5.5.152~1-55aa]:LatticeWordAligner():word-align-lattice.cc:263) [Lattice has input epsilons and/or is not input-deterministic (in Mohri sense)]-- i.e. lattice is not deterministic.  Word-alignment may be slow and-or blow up in memory.
+WARNING ([5.5.152~1-55aa]:LatticeWordAligner():word-align-lattice.cc:263) [Lattice has input epsilons and/or is not input-deterministic (in Mohri sense)]-- i.e. lattice is not deterministic.  Word-alignment may be slow and-or blow up in memory.
+WARNING ([5.5.152~1-55aa]:LatticeWordAligner():word-align-lattice.cc:263) [Lattice has input epsilons and/or is not input-deterministic (in Mohri sense)]-- i.e. lattice is not deterministic.  Word-alignment may be slow and-or blow up in memory.
+2019-01-02 00:15:57 -   DEBUG:   __main__: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Checking that decoder hasn't been silent for more than 10 seconds
+2019-01-02 00:15:57 -    INFO:   decoder2: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Got final result: one two three four five six seven eight
+2019-01-02 00:15:57 -    INFO:   decoder2: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Got full final result: {"status": 0, "result": {"final": true, "hypotheses": [{"transcript": "one two three four five six seven eight", "word-alignment": [{"confidence": 1.0, "length": 0.47, "word": "one", "start": 1.14}, {"confidence": 0.998849, "length": 0.29, "word": "two", "start": 1.65}, {"confidence": 1.0, "length": 0.4, "word": "three", "start": 1.97}, {"confidence": 0.999999, "length": 0.53, "word": "four", "start": 2.37}, {"confidence": 1.0, "length": 0.39, "word": "five", "start": 2.9}, {"confidence": 1.0, "length": 0.4, "word": "six", "start": 3.29}, {"confidence": 1.0, "length": 0.43, "word": "seven", "start": 3.69}, {"confidence": 0.997062, "length": 0.24, "word": "eight", "start": 4.28}], "likelihood": 162.303}, {"transcript": "one two three four five six seven eight nine", "word-alignment": [{"confidence": 1.0, "length": 0.47, "word": "one", "start": 1.14}, {"confidence": 0.998849, "length": 0.29, "word": "two", "start": 1.65}, {"confidence": 1.0, "length": 0.4, "word": "three", "start": 1.97}, {"confidence": 0.999999, "length": 0.53, "word": "four", "start": 2.37}, {"confidence": 1.0, "length": 0.39, "word": "five", "start": 2.9}, {"confidence": 1.0, "length": 0.4, "word": "six", "start": 3.29}, {"confidence": 1.0, "length": 0.43, "word": "seven", "start": 3.69}, {"confidence": 0.995726, "length": 0.24, "word": "eight", "start": 4.28}, {"confidence": 0.116988, "length": 0.09, "word": "nine", "start": 4.68}], "likelihood": 160.74}, {"transcript": "one two three four five six seven eight two", "word-alignment": [{"confidence": 1.0, "length": 0.47, "word": "one", "start": 1.14}, {"confidence": 0.998849, "length": 0.29, "word": "two", "start": 1.65}, {"confidence": 1.0, "length": 0.4, "word": "three", "start": 1.97}, {"confidence": 0.999999, "length": 0.53, "word": "four", "start": 2.37}, {"confidence": 1.0, "length": 0.39, "word": "five", "start": 2.9}, {"confidence": 1.0, "length": 0.4, "word": "six", "start": 3.29}, {"confidence": 1.0, "length": 0.43, "word": "seven", "start": 3.69}, {"confidence": 0.995726, "length": 0.24, "word": "eight", "start": 4.28}, {"confidence": 0.0731713, "length": 0.15, "word": "two", "start": 4.65}], "likelihood": 160.271}, {"transcript": "one two three four five six seven eight ten", "word-alignment": [{"confidence": 1.0, "length": 0.47, "word": "one", "start": 1.14}, {"confidence": 0.998849, "length": 0.29, "word": "two", "start": 1.65}, {"confidence": 1.0, "length": 0.4, "word": "three", "start": 1.97}, {"confidence": 0.999999, "length": 0.53, "word": "four", "start": 2.37}, {"confidence": 1.0, "length": 0.39, "word": "five", "start": 2.9}, {"confidence": 1.0, "length": 0.4, "word": "six", "start": 3.29}, {"confidence": 1.0, "length": 0.43, "word": "seven", "start": 3.69}, {"confidence": 0.995726, "length": 0.24, "word": "eight", "start": 4.28}, {"confidence": 0.0479429, "length": 0.17, "word": "ten", "start": 4.64}], "likelihood": 159.848}, {"transcript": "one two three four five six seven eight times", "word-alignment": [{"confidence": 1.0, "length": 0.47, "word": "one", "start": 1.14}, {"confidence": 0.998849, "length": 0.29, "word": "two", "start": 1.65}, {"confidence": 1.0, "length": 0.4, "word": "three", "start": 1.97}, {"confidence": 0.999999, "length": 0.53, "word": "four", "start": 2.37}, {"confidence": 1.0, "length": 0.39, "word": "five", "start": 2.9}, {"confidence": 1.0, "length": 0.4, "word": "six", "start": 3.29}, {"confidence": 1.0, "length": 0.43, "word": "seven", "start": 3.69}, {"confidence": 0.995726, "length": 0.24, "word": "eight", "start": 4.28}, {"confidence": 0.0328257, "length": 0.22, "word": "times", "start": 4.64}], "likelihood": 159.467}]}, "segment-start": 0.0, "total-length": 6.12, "segment-length": 6.12}
+2019-01-02 00:15:57 -   DEBUG:   __main__: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Before postprocessing: {u'status': 0, u'segment-start': 0.0, u'segment-length': 6.12, u'total-length': 6.12, u'result': {u'hypotheses': [{u'likelihood': 162.303, u'transcript': u'one two three four five six seven eight', u'word-alignment': [{u'start': 1.14, u'confidence': 1.0, u'word': u'one', u'length': 0.47}, {u'start': 1.65, u'confidence': 0.998849, u'word': u'two', u'length': 0.29}, {u'start': 1.97, u'confidence': 1.0, u'word': u'three', u'length': 0.4}, {u'start': 2.37, u'confidence': 0.999999, u'word': u'four', u'length': 0.53}, {u'start': 2.9, u'confidence': 1.0, u'word': u'five', u'length': 0.39}, {u'start': 3.29, u'confidence': 1.0, u'word': u'six', u'length': 0.4}, {u'start': 3.69, u'confidence': 1.0, u'word': u'seven', u'length': 0.43}, {u'start': 4.28, u'confidence': 0.997062, u'word': u'eight', u'length': 0.24}]}, {u'likelihood': 160.74, u'transcript': u'one two three four five six seven eight nine', u'word-alignment': [{u'start': 1.14, u'confidence': 1.0, u'word': u'one', u'length': 0.47}, {u'start': 1.65, u'confidence': 0.998849, u'word': u'two', u'length': 0.29}, {u'start': 1.97, u'confidence': 1.0, u'word': u'three', u'length': 0.4}, {u'start': 2.37, u'confidence': 0.999999, u'word': u'four', u'length': 0.53}, {u'start': 2.9, u'confidence': 1.0, u'word': u'five', u'length': 0.39}, {u'start': 3.29, u'confidence': 1.0, u'word': u'six', u'length': 0.4}, {u'start': 3.69, u'confidence': 1.0, u'word': u'seven', u'length': 0.43}, {u'start': 4.28, u'confidence': 0.995726, u'word': u'eight', u'length': 0.24}, {u'start': 4.68, u'confidence': 0.116988, u'word': u'nine', u'length': 0.09}]}, {u'likelihood': 160.271, u'transcript': u'one two three four five six seven eight two', u'word-alignment': [{u'start': 1.14, u'confidence': 1.0, u'word': u'one', u'length': 0.47}, {u'start': 1.65, u'confidence': 0.998849, u'word': u'two', u'length': 0.29}, {u'start': 1.97, u'confidence': 1.0, u'word': u'three', u'length': 0.4}, {u'start': 2.37, u'confidence': 0.999999, u'word': u'four', u'length': 0.53}, {u'start': 2.9, u'confidence': 1.0, u'word': u'five', u'length': 0.39}, {u'start': 3.29, u'confidence': 1.0, u'word': u'six', u'length': 0.4}, {u'start': 3.69, u'confidence': 1.0, u'word': u'seven', u'length': 0.43}, {u'start': 4.28, u'confidence': 0.995726, u'word': u'eight', u'length': 0.24}, {u'start': 4.65, u'confidence': 0.0731713, u'word': u'two', u'length': 0.15}]}, {u'likelihood': 159.848, u'transcript': u'one two three four five six seven eight ten', u'word-alignment': [{u'start': 1.14, u'confidence': 1.0, u'word': u'one', u'length': 0.47}, {u'start': 1.65, u'confidence': 0.998849, u'word': u'two', u'length': 0.29}, {u'start': 1.97, u'confidence': 1.0, u'word': u'three', u'length': 0.4}, {u'start': 2.37, u'confidence': 0.999999, u'word': u'four', u'length': 0.53}, {u'start': 2.9, u'confidence': 1.0, u'word': u'five', u'length': 0.39}, {u'start': 3.29, u'confidence': 1.0, u'word': u'six', u'length': 0.4}, {u'start': 3.69, u'confidence': 1.0, u'word': u'seven', u'length': 0.43}, {u'start': 4.28, u'confidence': 0.995726, u'word': u'eight', u'length': 0.24}, {u'start': 4.64, u'confidence': 0.0479429, u'word': u'ten', u'length': 0.17}]}, {u'likelihood': 159.467, u'transcript': u'one two three four five six seven eight times', u'word-alignment': [{u'start': 1.14, u'confidence': 1.0, u'word': u'one', u'length': 0.47}, {u'start': 1.65, u'confidence': 0.998849, u'word': u'two', u'length': 0.29}, {u'start': 1.97, u'confidence': 1.0, u'word': u'three', u'length': 0.4}, {u'start': 2.37, u'confidence': 0.999999, u'word': u'four', u'length': 0.53}, {u'start': 2.9, u'confidence': 1.0, u'word': u'five', u'length': 0.39}, {u'start': 3.29, u'confidence': 1.0, u'word': u'six', u'length': 0.4}, {u'start': 3.69, u'confidence': 1.0, u'word': u'seven', u'length': 0.43}, {u'start': 4.28, u'confidence': 0.995726, u'word': u'eight', u'length': 0.24}, {u'start': 4.64, u'confidence': 0.0328257, u'word': u'times', u'length': 0.22}]}], u'final': True}, 'segment': 0, 'id': u'9e268fcc-768f-494e-99cf-7ca1241cc7c8'}
+2019-01-02 00:15:57 -    INFO:   __main__: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Postprocessing done.
+2019-01-02 00:15:57 -   DEBUG:   __main__: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: After postprocessing: {u'status': 0, u'segment-start': 0.0, u'segment-length': 6.12, u'total-length': 6.12, u'result': {u'hypotheses': [{u'likelihood': 162.303, u'confidence': 0.7904933923454183, u'transcript': u'one two three four five six seven eight.', u'word-alignment': [{u'start': 1.14, u'confidence': 1.0, u'word': u'one', u'length': 0.47}, {u'start': 1.65, u'confidence': 0.998849, u'word': u'two', u'length': 0.29}, {u'start': 1.97, u'confidence': 1.0, u'word': u'three', u'length': 0.4}, {u'start': 2.37, u'confidence': 0.999999, u'word': u'four', u'length': 0.53}, {u'start': 2.9, u'confidence': 1.0, u'word': u'five', u'length': 0.39}, {u'start': 3.29, u'confidence': 1.0, u'word': u'six', u'length': 0.4}, {u'start': 3.69, u'confidence': 1.0, u'word': u'seven', u'length': 0.43}, {u'start': 4.28, u'confidence': 0.997062, u'word': u'eight', u'length': 0.24}]}], u'final': True}, u'segment': 0, u'id': u'9e268fcc-768f-494e-99cf-7ca1241cc7c8'}
+2019-01-02 00:15:57 -    INFO:   decoder2: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Pipeline received eos signal
+2019-01-02 00:15:57 -    INFO:   decoder2: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Resetting decoder state
+2019-01-02 00:15:57 -    INFO:   __main__: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Sending adaptation state to client...
+2019-01-02 00:15:58 -   DEBUG:      ws4py: Closing message received (1000) ''
+2019-01-02 00:15:58 -   DEBUG:   __main__: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Websocket closed() called
+2019-01-02 00:15:58 -   DEBUG:   __main__: 9e268fcc-768f-494e-99cf-7ca1241cc7c8: Websocket closed() finished
+2019-01-02 00:15:59 -    INFO:   __main__: Opening websocket connection to master server
+2019-01-02 00:15:59 -    INFO:   __main__: Opened websocket connection to server
