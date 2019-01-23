@@ -1,8 +1,9 @@
 # You can download api-ai model from kaldi and put them into 'test/models' to download them.
-use-nnet2: False
+use-nnet2: True
 decoder:
     # All the properties nested here correspond to the kaldinnet2onlinedecoder GStreamer plugin properties.
     # Use gst-inspect-1.0 ./libgstkaldionline2.so kaldinnet2onlinedecoder to discover the available properties
+    nnet-mode: 3
     use-threaded-decoder:  true
     model : test/models/english/apiai_chainmodel_nn3_online/final.mdl
     word-syms : test/models/english/apiai_chainmodel_nn3_online/words.txt
