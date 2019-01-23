@@ -9,26 +9,27 @@ decoder:
     word-syms : test/models/english/apiai_chainmodel_nn3_online/words.txt
     fst : test/models/english/apiai_chainmodel_nn3_online/HCLG.fst
     mfcc-config : test/models/english/apiai_chainmodel_nn3_online/mfcc.conf
-    max-active: 10000
+    max-active: 7000
+    min-active: 200
     beam: 15.0
     lattice-beam: 8.0
-    acoustic-scale: 0.083
+    acoustic-scale: 1.0
     do-endpointing : true
     endpoint-silence-phones : "1:2:3:4:5:6:7:8:9:10"
-    traceback-period-in-secs: 0.25
-    chunk-length-in-secs: 0.25
+    traceback-period-in-secs: 1
+    chunk-length-in-secs: 1
     num-nbest: 10
     #Additional functionality that you can play with:
     #lm-fst:  test/models/english/tedlium_nnet_ms_sp_online/G.fst
     #big-lm-const-arpa: test/models/english/tedlium_nnet_ms_sp_online/G.carpa
     phone-syms: test/models/english/apiai_chainmodel_nn3_online/phones.txt
     #word-boundary-file: test/models/english/tedlium_nnet_ms_sp_online/word_boundary.int
-    do-phone-alignment: true
+    #do-phone-alignment: true
 
 out-dir: tmp
 
 use-vad: False
-silence-timeout: 20
+silence-timeout: 50
 
 # Just a sample post-processor that appends "." to the hypothesis
 # post-processor: perl -npe 'BEGIN {use IO::Handle; STDOUT->autoflush(1);} s/(.*)/\1./;'
